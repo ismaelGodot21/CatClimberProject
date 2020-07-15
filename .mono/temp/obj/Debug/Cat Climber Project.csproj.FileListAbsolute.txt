@@ -1,0 +1,6 @@
+/home/fenix/Mis videojuegos/UdeA/CatClimberProject/.mono/temp/bin/Debug/Cat Climber Project.dll
+/home/fenix/Mis videojuegos/UdeA/CatClimberProject/.mono/temp/bin/Debug/Cat Climber Project.pdb
+/home/fenix/Mis videojuegos/UdeA/CatClimberProject/.mono/temp/obj/Debug/Cat Climber Project.csprojAssemblyReference.cache
+/home/fenix/Mis videojuegos/UdeA/CatClimberProject/.mono/temp/obj/Debug/Cat Climber Project.csproj.CoreCompileInputs.cache
+/home/fenix/Mis videojuegos/UdeA/CatClimberProject/.mono/temp/obj/Debug/Cat Climber Project.dll
+/home/fenix/Mis videojuegos/UdeA/CatClimberProject/.mono/temp/obj/Debug/Cat Climber Project.pdb
