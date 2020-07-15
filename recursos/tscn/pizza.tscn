@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://recursos/pizza256.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="pizza256" type="Sprite" parent="."]
+position = Vector2( 22.7139, -56.3762 )
+texture = ExtResource( 1 )
+hframes = 5
+frame = 4

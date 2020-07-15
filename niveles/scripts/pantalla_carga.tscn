@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Control.gd" type="Script" id=1]
+[ext_resource path="res://recursos/tscn/Gato.tscn" type="PackedScene" id=2]
+
+[node name="pantalla_carga" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+margin_left = 0.837463
+margin_top = -0.19516
+margin_right = 1023.84
+margin_bottom = 599.805
+color = Color( 0.0901961, 0.0784314, 0.113725, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="barra_carga" type="ProgressBar" parent="."]
+margin_left = 103.0
+margin_top = 466.0
+margin_right = 928.0
+margin_bottom = 554.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="carga_anim_pantalla" type="AnimationPlayer" parent="."]
+
+[node name="Node2D" parent="carga_anim_pantalla" instance=ExtResource( 2 )]
+position = Vector2( 496.875, 400.553 )
+scale = Vector2( 3.28512, 3.27483 )
+
+[node name="Tween" type="Tween" parent="."]

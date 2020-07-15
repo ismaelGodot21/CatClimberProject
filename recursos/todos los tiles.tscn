@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://recursos/todoslostilesmitad.png" type="Texture" id=1]
+
+[node name="todoslostilesmitad" type="Sprite"]
+position = Vector2( 161.283, 183.335 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 602, 457, 112, 58 )
+
+[node name="todoslostilesmitad" type="Sprite" parent="."]
+position = Vector2( 146.899, 1.31879 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 161, 457, 113, 54 )

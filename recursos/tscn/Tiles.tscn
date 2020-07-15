@@ -1,0 +1,547 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://recursos/todoslostilesmitad.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 62.6849, 27.6165 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 65.7132, 66.9817 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Ladrillorojizo" type="Node" parent="."]
+
+[node name="Ladrillorojizo1" type="Sprite" parent="Ladrillorojizo"]
+position = Vector2( -68.9767, 31.5789 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 168, 17, 128, 56 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Ladrillorojizo/Ladrillorojizo1"]
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillorojizo/Ladrillorojizo1/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillorojizo2" type="Sprite" parent="Ladrillorojizo"]
+position = Vector2( 65.9894, 29.4502 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 22, 16, 129, 56 )
+
+[node name="Area2D" type="StaticBody2D" parent="Ladrillorojizo/Ladrillorojizo2"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillorojizo/Ladrillorojizo2/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote" type="Sprite" parent="Ladrillorojizo"]
+position = Vector2( 215.646, -8.23707 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 308, 995, 142, 138 )
+
+[node name="roca" type="StaticBody2D" parent="Ladrillorojizo/Ladrillote"]
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillorojizo/Ladrillote/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Rocadeladrillo" type="Sprite" parent="Ladrillorojizo"]
+position = Vector2( 366.363, -10.0421 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1531, 989, 131, 130 )
+
+[node name="roca2" type="StaticBody2D" parent="Ladrillorojizo/Rocadeladrillo"]
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillorojizo/Rocadeladrillo/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Ladrillosverdosos" type="Node" parent="."]
+
+[node name="Ladrilloverdoso" type="Sprite" parent="Ladrillosverdosos"]
+position = Vector2( -68.9767, 178.526 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 22, 547, 129, 56 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Ladrillosverdosos/Ladrilloverdoso"]
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillosverdosos/Ladrilloverdoso/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Ladrillosverdosos"]
+position = Vector2( 65.9894, 176.45 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 25, 195, 129, 58 )
+
+[node name="Area2D" type="StaticBody2D" parent="Ladrillosverdosos/Ladrillo 3"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillosverdosos/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Ladrillosverdosos"]
+position = Vector2( 215.646, 201.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 310, 827, 143, 138 )
+
+[node name="roca" type="StaticBody2D" parent="Ladrillosverdosos/Ladrillote2"]
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillosverdosos/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Ladrillosverdosos"]
+position = Vector2( 366.363, 208.958 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1868, 990, 131, 129 )
+
+[node name="roca2" type="StaticBody2D" parent="Ladrillosverdosos/Roca de ladrillo2"]
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillosverdosos/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Ladrillos grises roca" type="Node" parent="."]
+
+[node name="Ladrillo 4" type="Sprite" parent="Ladrillos grises roca"]
+position = Vector2( -70.8273, 331.876 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 160, 375, 124, 51 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ladrillos grises roca/Ladrillo 4"]
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca/Ladrillo 4/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Ladrillos grises roca"]
+position = Vector2( 65.9894, 332.4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 160, 113, 125, 51 )
+
+[node name="Area2D" type="StaticBody2D" parent="Ladrillos grises roca/Ladrillo 3"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Ladrillos grises roca"]
+position = Vector2( 215.646, 356.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 679, 853, 130, 108 )
+
+[node name="roca" type="StaticBody2D" parent="Ladrillos grises roca/Ladrillote2"]
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Ladrillos grises roca"]
+position = Vector2( 366.363, 363.958 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1696, 989, 131, 129 )
+
+[node name="roca2" type="StaticBody2D" parent="Ladrillos grises roca/Roca de ladrillo2"]
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Hielo1" type="Node" parent="."]
+
+[node name="Ladrillo 4" type="Sprite" parent="Hielo1"]
+position = Vector2( -70.8273, 506.876 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 317, 110, 123, 54 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Hielo1/Ladrillo 4"]
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo1/Ladrillo 4/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Hielo1"]
+position = Vector2( 65.9894, 507.4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 313, 371, 123, 54 )
+
+[node name="Area2D" type="StaticBody2D" parent="Hielo1/Ladrillo 3"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo1/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Hielo1"]
+position = Vector2( 215.646, 531.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 841, 1003, 130, 113 )
+
+[node name="roca" type="StaticBody2D" parent="Hielo1/Ladrillote2"]
+visible = false
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo1/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Hielo1"]
+position = Vector2( 366.363, 538.958 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1871, 824, 129, 131 )
+
+[node name="roca2" type="StaticBody2D" parent="Hielo1/Roca de ladrillo2"]
+visible = false
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo1/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Hielo2" type="Node" parent="."]
+
+[node name="Ladrillo 4" type="Sprite" parent="Hielo2"]
+position = Vector2( -70.8273, 696.876 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 468, 454, 112, 58 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Hielo2/Ladrillo 4"]
+visible = false
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo2/Ladrillo 4/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Hielo2"]
+position = Vector2( 65.9894, 697.4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 467, 366, 113, 59 )
+
+[node name="Area2D" type="StaticBody2D" parent="Hielo2/Ladrillo 3"]
+visible = false
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo2/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Hielo2"]
+position = Vector2( 215.646, 721.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 16, 829, 119, 131 )
+
+[node name="roca" type="StaticBody2D" parent="Hielo2/Ladrillote2"]
+visible = false
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo2/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Hielo2"]
+position = Vector2( 366.363, 722.776 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 156, 826, 120, 132 )
+
+[node name="roca2" type="StaticBody2D" parent="Hielo2/Roca de ladrillo2"]
+visible = false
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo2/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Ladrillo2" type="Node" parent="."]
+
+[node name="Ladrillo 1" type="Sprite" parent="Ladrillo2"]
+position = Vector2( 526.023, 31.5789 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 24, 111, 124, 50 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Ladrillo2/Ladrillo 1"]
+visible = false
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillo2/Ladrillo 1/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 2" type="Sprite" parent="Ladrillo2"]
+position = Vector2( 660.989, 29.4502 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 24, 281, 124, 53 )
+
+[node name="Area2D" type="StaticBody2D" parent="Ladrillo2/Ladrillo 2"]
+visible = false
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillo2/Ladrillo 2/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote" type="Sprite" parent="Ladrillo2"]
+position = Vector2( 810.646, -8.23707 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1342, 814, 144, 146 )
+
+[node name="roca" type="StaticBody2D" parent="Ladrillo2/Ladrillote"]
+visible = false
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillo2/Ladrillote/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo" type="Sprite" parent="Ladrillo2"]
+position = Vector2( 959.512, -10.0421 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 505, 850, 134, 111 )
+
+[node name="roca2" type="StaticBody2D" parent="Ladrillo2/Roca de ladrillo"]
+visible = false
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillo2/Roca de ladrillo/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Ladrillos verdosos2" type="Node" parent="."]
+
+[node name="Ladrillo 4" type="Sprite" parent="Ladrillos verdosos2"]
+position = Vector2( 520.023, 178.526 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 316, 23, 124, 50 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Ladrillos verdosos2/Ladrillo 4"]
+visible = false
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos verdosos2/Ladrillo 4/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Ladrillos verdosos2"]
+position = Vector2( 654.989, 176.45 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 310, 281, 127, 53 )
+
+[node name="Area2D" type="StaticBody2D" parent="Ladrillos verdosos2/Ladrillo 3"]
+visible = false
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos verdosos2/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Ladrillos verdosos2"]
+position = Vector2( 804.646, 201.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1004, 815, 145, 147 )
+
+[node name="roca" type="StaticBody2D" parent="Ladrillos verdosos2/Ladrillote2"]
+visible = false
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos verdosos2/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Ladrillos verdosos2"]
+position = Vector2( 955.363, 206.334 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 677, 1006, 131, 111 )
+
+[node name="roca2" type="StaticBody2D" parent="Ladrillos verdosos2/Roca de ladrillo2"]
+visible = false
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos verdosos2/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Ladrillos grises roca2" type="Node" parent="."]
+
+[node name="Ladrillo 4" type="Sprite" parent="Ladrillos grises roca2"]
+position = Vector2( 518.173, 331.876 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 160, 548, 112, 57 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Ladrillos grises roca2/Ladrillo 4"]
+visible = false
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca2/Ladrillo 4/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Ladrillos grises roca2"]
+position = Vector2( 654.989, 332.4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 167, 278, 112, 55 )
+
+[node name="Area2D" type="StaticBody2D" parent="Ladrillos grises roca2/Ladrillo 3"]
+visible = false
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca2/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Ladrillos grises roca2"]
+position = Vector2( 804.646, 356.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1177, 977, 144, 147 )
+
+[node name="roca" type="StaticBody2D" parent="Ladrillos grises roca2/Ladrillote2"]
+visible = false
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca2/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Ladrillos grises roca2"]
+position = Vector2( 955.363, 363.958 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1699, 823, 132, 130 )
+
+[node name="roca2" type="StaticBody2D" parent="Ladrillos grises roca2/Roca de ladrillo2"]
+visible = false
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ladrillos grises roca2/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Hielo4" type="Node" parent="."]
+
+[node name="Ladrillo 4" type="Sprite" parent="Hielo4"]
+position = Vector2( 511.173, 506.876 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 467, 19, 112, 58 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Hielo4/Ladrillo 4"]
+visible = false
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo4/Ladrillo 4/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Hielo4"]
+position = Vector2( 647.989, 507.4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 467, 108, 112, 58 )
+
+[node name="Area2D" type="StaticBody2D" parent="Hielo4/Ladrillo 3"]
+visible = false
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo4/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Hielo4"]
+position = Vector2( 797.646, 531.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 841, 851, 131, 109 )
+
+[node name="roca" type="StaticBody2D" parent="Hielo4/Ladrillote2"]
+visible = false
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo4/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Hielo4"]
+position = Vector2( 945.845, 536.44 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1325, 979, 164, 146 )
+
+[node name="roca2" type="StaticBody2D" parent="Hielo4/Roca de ladrillo2"]
+visible = false
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo4/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )
+
+[node name="Hielo3" type="Node" parent="."]
+
+[node name="Ladrillo 4" type="Sprite" parent="Hielo3"]
+position = Vector2( 511.173, 696.876 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 27, 364, 112, 57 )
+
+[node name="Area2D2" type="StaticBody2D" parent="Hielo3/Ladrillo 4"]
+visible = false
+position = Vector2( -1.03386, -0.128754 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo3/Ladrillo 4/Area2D2"]
+shape = SubResource( 1 )
+
+[node name="Ladrillo 3" type="Sprite" parent="Hielo3"]
+position = Vector2( 647.989, 697.4 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 317, 548, 112, 56 )
+
+[node name="Area2D" type="StaticBody2D" parent="Hielo3/Ladrillo 3"]
+visible = false
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo3/Ladrillo 3/Area2D"]
+shape = SubResource( 1 )
+
+[node name="Ladrillote2" type="Sprite" parent="Hielo3"]
+position = Vector2( 797.646, 721.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1005, 979, 144, 144 )
+
+[node name="roca" type="StaticBody2D" parent="Hielo3/Ladrillote2"]
+visible = false
+position = Vector2( 0.343933, -0.312752 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo3/Ladrillote2/roca"]
+position = Vector2( -0.459656, -0.242149 )
+shape = SubResource( 2 )
+
+[node name="Roca de ladrillo2" type="Sprite" parent="Hielo3"]
+position = Vector2( 948.363, 728.958 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1534, 822, 130, 132 )
+
+[node name="roca2" type="StaticBody2D" parent="Hielo3/Roca de ladrillo2"]
+visible = false
+position = Vector2( 0.626465, 1.49224 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hielo3/Roca de ladrillo2/roca2"]
+position = Vector2( 0.540344, 0.757851 )
+shape = SubResource( 2 )

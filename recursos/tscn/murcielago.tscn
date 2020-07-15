@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://recursos/murcielago256.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="murcielago256" type="Sprite" parent="."]
+position = Vector2( -33.8575, 31.1592 )
+texture = ExtResource( 1 )
+hframes = 4
+frame = 3
