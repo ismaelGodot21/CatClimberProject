@@ -115,11 +115,11 @@ func _physics_process(delta):
 
 	if on_floor:
 		if linear_vel.x < -SIDING_CHANGE_SPEED:
-			sprite.scale.x = -0.5
+			sprite.scale.x = 0
 			new_anim = "gatocaminando"
 
 		if linear_vel.x > SIDING_CHANGE_SPEED:
-			sprite.scale.x = 0.5
+			sprite.scale.x = 0
 			new_anim = "gatocaminando"
 	else:
 		# We want the character to immediately change facing side when the player

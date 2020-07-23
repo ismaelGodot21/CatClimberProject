@@ -4,8 +4,8 @@
 [ext_resource path="res://recursos/gatomansprite256.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 24.8485
-height = 66.7831
+radius = 26.5215
+height = 94.4249
 
 [sub_resource type="Animation" id=2]
 tracks/0/type = "value"
